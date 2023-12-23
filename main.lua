@@ -24,6 +24,7 @@ local function playerAddedCheck()
 		local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
 		if humanoidRootPart then
 			frame.Position = UDim2.new(0.728, 0, 0.23, 0)
+			frame.Visible = true
 		end
 	end
 end
