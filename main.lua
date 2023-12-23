@@ -10,7 +10,6 @@ local clear = Instance.new("TextButton", frame)
 main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 frame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-frame.BackgroundTransparency = 0.5
 frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 frame.BorderSizePixel = 0
 frame.Position = UDim2.new(0.728, 0, 0.23, 0)
@@ -35,7 +34,6 @@ game.Players.LocalPlayer.CharacterAdded:Connect(function()
 end)
 
 banner.BackgroundColor3 = Color3.fromRGB(200, 0, 3)
-banner.BackgroundTransparency = 0.5
 banner.BorderColor3 = Color3.fromRGB(0, 0, 0)
 banner.BorderSizePixel = 0
 banner.Size = UDim2.new(0, 324, 0, 30)
@@ -51,7 +49,6 @@ title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.TextSize = 22
 
 editor.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
-editor.BackgroundTransparency = 0.5
 editor.BorderColor3 = Color3.fromRGB(0, 0, 0)
 editor.BorderSizePixel = 0
 editor.Position = UDim2.new(0.031, 0, 0.346, 0)
@@ -64,7 +61,7 @@ editor.TextSize = 16
 editor.TextWrapped = true
 
 label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-label.BackgroundTransparency = 1.000
+label.BackgroundTransparency = 1
 label.BorderColor3 = Color3.fromRGB(0, 0, 0)
 label.BorderSizePixel = 0
 label.Position = UDim2.new(0.191, 0, 0.173, 0)
@@ -75,7 +72,6 @@ label.TextColor3 = Color3.fromRGB(255, 255, 255)
 label.TextSize = 21
 
 execute.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
-execute.BackgroundTransparency = 0.5
 execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
 execute.BorderSizePixel = 0
 execute.Position = UDim2.new(0.309, 0, 0.519, 0)
@@ -90,7 +86,6 @@ execute.MouseButton1Click:Connect(function()
 end)
 
 clear.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
-clear.BackgroundTransparency = 0.5
 clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
 clear.BorderSizePixel = 0
 clear.Position = UDim2.new(0.309, 0, 0.736, 0)
