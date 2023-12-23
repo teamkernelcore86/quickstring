@@ -1,4 +1,4 @@
-local main = Instance.new("ScreenGui", game.Players.LocalPlayer:WaitForChild("PlayerGui"))
+local main = Instance.new("ScreenGui", game.CoreGui)
 local frame = Instance.new("Frame", main)
 local banner = Instance.new("Frame", frame)
 local title = Instance.new("TextLabel", banner)
