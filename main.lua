@@ -10,6 +10,7 @@ local clear = Instance.new("TextButton", frame)
 main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 frame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+frame.BackgroundTransparency = 0.5
 frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 frame.BorderSizePixel = 0
 frame.Position = UDim2.new(0.728, 0, 0.23, 0)
@@ -34,12 +35,13 @@ game.Players.LocalPlayer.CharacterAdded:Connect(function()
 end)
 
 banner.BackgroundColor3 = Color3.fromRGB(200, 0, 3)
+banner.BackgroundTransparency = 0.5
 banner.BorderColor3 = Color3.fromRGB(0, 0, 0)
 banner.BorderSizePixel = 0
 banner.Size = UDim2.new(0, 324, 0, 30)
 
 title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-title.BackgroundTransparency = 1.000
+title.BackgroundTransparency = 1
 title.BorderColor3 = Color3.fromRGB(0, 0, 0)
 title.BorderSizePixel = 0
 title.Size = UDim2.new(0, 324, 0, 30)
