@@ -51,6 +51,7 @@ title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.TextSize = 22
 
 editor.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+editor.BackgroundTransparency = 0.5
 editor.BorderColor3 = Color3.fromRGB(0, 0, 0)
 editor.BorderSizePixel = 0
 editor.Position = UDim2.new(0.031, 0, 0.346, 0)
@@ -74,6 +75,7 @@ label.TextColor3 = Color3.fromRGB(255, 255, 255)
 label.TextSize = 21
 
 execute.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+execute.BackgroundTransparency = 0.5
 execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
 execute.BorderSizePixel = 0
 execute.Position = UDim2.new(0.309, 0, 0.519, 0)
@@ -88,6 +90,7 @@ execute.MouseButton1Click:Connect(function()
 end)
 
 clear.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+clear.BackgroundTransparency = 0.5
 clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
 clear.BorderSizePixel = 0
 clear.Position = UDim2.new(0.309, 0, 0.736, 0)
